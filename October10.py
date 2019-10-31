@@ -38,7 +38,12 @@ def grader(grade):
 g = grader(60)
 print(g)
 
+
+# to get grades for the class use a list
+
 grades = [75,80,90,60,65,85]
+
+# find the class average grade and use the function, grader, we just wrote
 
 def term_grader(grade):
     term = sum(grade) / len(grade)
@@ -80,11 +85,19 @@ multiply_list(nums)
 
 # 2. Write a program to get the largest number in a list
 
+
+## Coding takes practice more than brains
+## https://exercism.io/ is a good practice site for exercises like these
+
+# A simple way
+
 def largest(items):
     items.sort()
     return items[-1]
 
 largest(nums)
+
+## A do it yourself way
 
 def my_largest(items):
     my_max = items[0]
@@ -96,11 +109,17 @@ def my_largest(items):
 my_largest(nums)
 
 # 3. Assume: 
+
+
 law_class = ["Matthew", "Hunter", "Marianna", "Brittany", "Harrison", "James","Bradley"]
 # Print "Hunter"
+
 print(law_class[1])
  
+ # remember a list is similar to an array in other languages it starts with 0
+
 # 4. Print out each name in law_class
+## Python provides an easy way to move through a list " for x in list: "
 
 for x in law_class:
     print(x,end=" ")
@@ -111,3 +130,64 @@ law_class.sort()
 
 for x in law_class:
     print(x,end=" ")
+
+
+## list -  order matters
+
+fam = ["Tom", "Carole", "Baby Brooke"]
+
+fam2 = ["Carole", "Tom", "Baby Brooke"]
+
+fam == fam2    # False
+
+## dictionary Order doesn't matter
+
+fam = {'husband': 'Tom', 'wife': 'Carole', 'grand_baby': 'Baby Brooke'}
+
+fam2 = {'wife': 'Carole', 'grand_baby': 'Baby Brooke', 'husband': 'Tom'}
+
+## Dictionary like json  Javascript Object Notation   - similar notation
+## json key must be string with double quotes
+
+# { "family":
+#    {"husband": "Tom", 
+#     "wife": "Carole",
+#      "grand baby": "baby brooke"} 
+# }
+
+fam == fam2    # True
+
+1. ## print the keys in fam
+
+
+2. ## print the values in fam
+
+3. work through the tic tac toe board page 113 
+
+# Tic Tac Toe  Board
+
+theBoard = {'top-L': ' ', 'top-M':' ', 'top-R':' ',
+            'mid-L': ' ', 'mid-M':' ', 'mid-R':' ',
+            'low-L': ' ', 'low-M':' ', 'low-R':' '}
+
+
+def printBoard(board):
+    print(' '+ board['top-L'] + '|' + board['top-M'] + '|' + board['top-R'])
+    print('-+-+-')
+    print(board['mid-L'] + '|' + board['mid-M'] + '|' + board['top-R'])
+    print('-+-+-')
+    print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
+turn = 'x'
+for i in range(9):
+    print('Turn for ' + turn + '_ on which space? ')
+    move = input()
+    theBoard[move] = turn
+    if turn == 'x':
+        turn = '0'
+    else:
+        turn = 'x'
+
+printBoard(theBoard)
+
+
+

@@ -9,6 +9,11 @@ target = "back in the saddle again"
 mutationRate = 0.01
 
 # defines what a new "DNA" is
+
+# This is Object oriented programing a class is a template for an Object
+# An excellent overview of Object oriented programming by Quentin Steenhus
+# that did our first lecture is at:
+#  https://www.nonprofittechy.com/2018/09/12/object-oriented-programming-for-document-assembly-developers/
 class DNA:
 
     # gets called with a new DNA object is created

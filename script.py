@@ -1,20 +1,23 @@
 import random
+# import our other module - the dna.py module
 
 from dna import DNA
 
 # how many DNA objects should be in the population
+
 population_size = 1000
 
-# target is ultimately 1.00, a perfect match
+# target is ultimately 1.00, a perfect match, start with 0
 bestScore = 0
 
-# holds our population
+# holds our population, no population yet
 population = []
 
 # keeps count of how long it takes to get the final result
 generation = 1
 
 # randomly generate the first 1,000 entities
+
 for i in range(int(population_size)):
     population.append(DNA())
 
