@@ -3,12 +3,12 @@
 # DNA Program  - 
 This is a fun program with some more advanced things that I hope to have time to cover, or maybe just point out in class. There are two files; script.py and dna.py to make it work you run script.py from the command line with dna.py in the same directory - 
 
-## These program demonstrate machine learning: [Generative Design](https://medium.com/generative-design/evolving-design-b0941a17b759)
+## These program demonstrates machine learning: [Generative Design](https://medium.com/generative-design/evolving-design-b0941a17b759)
 
-And Object Oriented Programming: [Object Oriented Programming](https://www.nonprofittechy.com/2018/09/12/object-oriented-programming-for-document-assembly-developers/)
+and Object Oriented Programming: [Object Oriented Programming](https://www.nonprofittechy.com/2018/09/12/object-oriented-programming-for-document-assembly-developers/)
 ---
 
-## Here is a great article from LegaTechnology about Docassemble and whether or not Lawyers should learn to code: 
+## Here is a great article from Legal Technology about Docassemble and whether or not Lawyers should learn to code: 
 
 
 I’ve changed my mind about whether lawyers should learn to code or not, and one of the main reasons is speaking to the attorney founder of Docassemble, Jonathan Pyle, who has developed a free, open source expert system for guided interviews and document assembly that can plug in external sources such as client credit reports in bankruptcy proceedings. Oh yes, and Radiant Law has just open sourced a library that integrates Docassemble to DocuSign, so that you can generate a document, including bulk generation, and send it straight out to the signatories without any additional steps.
