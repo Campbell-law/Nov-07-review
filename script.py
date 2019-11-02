@@ -1,3 +1,13 @@
+
+## This program is an example of a genetic algorithm it was introduced in the Harvard Computer
+## science for Lawyers course and was used to explain AI - or at least the portion of AI that
+## does machine learning. For an elaborate explanation see:
+
+## https://medium.com/generative-design/evolving-design-b0941a17b759
+
+## To run the program run this, script.py,file in the terminal - make sure dna.py is in the same directory
+## the target phrase is in dna.py and you can change it to whatever you want
+
 import random
 # import our other module - the dna.py module
 
